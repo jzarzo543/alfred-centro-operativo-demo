@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source": "github-project-updates",
+  "updated_at": "2026-11-15T17:08:00Z",
+  "scope": "CASA",
+  "project_key": "alfred",
+  "display_name": "Alfred — Centro Operativo",
+  "events": [
+    {
+      "id": "alfred-monitorizacion-ha-20261115",
+      "date": "2026-11-15",
+      "type": "milestone",
+      "title": "Monitorización de Home Assistant integrada",
+      "status": "completed",
+      "summary": "Publicación automatizada de estado desde Ubuntu a GitHub y visualización en Centro Operativo v5; pruebas de actualización y manejo de errores verificadas."
+    },
+    {
+      "id": "alfred-site-v5-20261115",
+      "date": "2026-11-15",
+      "type": "release",
+      "title": "Centro Operativo v5 publicado",
+      "status": "completed",
+      "summary": "Lectura del estado real, actualización periódica y conservación de datos existentes validadas."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "alfred-github-token-20261215",
+      "title": "Renovar o sustituir credencial de sincronización",
+      "status": "pending",
+      "due_date": "2026-12-14",
+      "summary": "Evitar interrupción de la publicación automática; no incluir secretos en el panel."
+    },
+    {
+      "id": "alfred-sync-log-rotation",
+      "title": "Limitar crecimiento del registro de sincronización",
+      "status": "pending",
+      "due_date": null,
+      "summary": "Definir y validar rotación de sync.log sin afectar la automatización."
+    }
+  ],
+  "policy": {
+    "read_only": true,
+    "merge_strategy": "display-separately-by-id",
+    "no_localstorage_overwrite": true
+  }
+}
