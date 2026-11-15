@@ -5,8 +5,8 @@
     {
       "id": "servicio-demo",
       "name": "Servicio de prueba",
-      "status": "operativo",
-      "checked_at": "2026-11-15T12:00:00Z"
+      "status": "incidencia",
+      "checked_at": "2026-11-15T15:57:53Z"
     }
   ]
 }
