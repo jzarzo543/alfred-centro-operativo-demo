@@ -1,11 +1,35 @@
 {
   "schema_version": 1,
   "source": "github-project-updates",
-  "updated_at": "2026-11-15T17:58:00Z",
+  "updated_at": "2026-11-15T18:31:43.464Z",
   "scope": "CASA",
   "project_key": "alfred",
   "display_name": "Alfred — Centro Operativo",
   "events": [
+    {
+      "id": "home-assistant-prioridad-20261115",
+      "date": "2026-11-15",
+      "type": "decision",
+      "title": "Home Assistant pasa a ser el proyecto activo prioritario",
+      "status": "planned",
+      "summary": "Objetivo: aprovechar al máximo Home Assistant y automatizar la casa usando el hardware disponible. Próximo paso: inventario de integraciones y dispositivos existentes, sin instalaciones ni modificaciones sin autorización; evitar duplicar alertas de VOSS Monitor."
+    },
+    {
+      "id": "alfred-pausa-20261115",
+      "date": "2026-11-15",
+      "type": "decision",
+      "title": "Alfred queda en pausa",
+      "status": "paused",
+      "summary": "Decisión del usuario: aparcar temporalmente el desarrollo y las pruebas de Alfred, sin compras ni cambios de producción. Conservar modelos, evidencias y avances para retomar más adelante."
+    },
+    {
+      "id": "alfred-qwen06-memoria-20261115",
+      "date": "2026-11-15",
+      "type": "milestone",
+      "title": "Prueba Qwen3 0.6B bloqueada por memoria",
+      "status": "blocked",
+      "summary": "Diez muestras previas al arranque: RAM disponible 3.126–3.170 MiB (umbral 3.700 MiB) y margen comprometido 1.458–1.595 MiB (umbral 3.000 MiB). Sin descarga, contenedores ni inferencia. Viabilidad del modelo sin verificar; producción intacta."
+    },
     {
       "id": "alfred-monitorizacion-ha-20261115",
       "date": "2026-11-15",
