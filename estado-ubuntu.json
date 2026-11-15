@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "source": "ubuntu",
+  "services": [
+    {
+      "id": "homeassistant",
+      "name": "Home Assistant",
+      "status": "operativo",
+      "checked_at": "2026-11-15T16:25:20.898548+00:00"
+    }
+  ]
+}
