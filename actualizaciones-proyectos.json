@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "github-project-updates",
-  "updated_at": "2026-11-15T17:08:00Z",
+  "updated_at": "2026-11-15T17:58:00Z",
   "scope": "CASA",
   "project_key": "alfred",
   "display_name": "Alfred — Centro Operativo",
@@ -21,6 +21,22 @@
       "title": "Centro Operativo v5 publicado",
       "status": "completed",
       "summary": "Lectura del estado real, actualización periódica y conservación de datos existentes validadas."
+    },
+    {
+      "id": "alfred-auditoria-dev-20261115",
+      "date": "2026-11-15",
+      "type": "milestone",
+      "title": "Auditoría final de Alfred DEV documentada",
+      "status": "completed",
+      "summary": "Auditoría documental de fases 4, 5 y 6B terminada. Streaming y cancelación verificados en simulación; integraciones reales parciales. RC1 fallido y revertido. Informe público: informes/alfred-auditoria-dev-2026-11-15.md"
+    },
+    {
+      "id": "alfred-modelos-dev-20261115",
+      "date": "2026-11-15",
+      "type": "milestone",
+      "title": "Modelos locales DEV recuperados y verificados",
+      "status": "completed",
+      "summary": "Integridad SHA-256 confirmada de alfred:latest (4B) y qwen3:1.7b en almacén DEV independiente. No se arrancó Ollama DEV ni se modificó producción."
     }
   ],
   "tasks": [
@@ -37,6 +53,27 @@
       "status": "pending",
       "due_date": null,
       "summary": "Definir y validar rotación de sync.log sin afectar la automatización."
+    },
+    {
+      "id": "alfred-inferencia-real-dev",
+      "title": "Primera inferencia real de Ollama en DEV",
+      "status": "pending",
+      "due_date": null,
+      "summary": "Pendiente por margen de memoria. Antes de probar: validar aislamiento y recursos; obtener una respuesta real con telemetría sin afectar producción."
+    },
+    {
+      "id": "alfred-validacion-toolcalls-reales",
+      "title": "Validar conversación y herramientas con modelo real",
+      "status": "pending",
+      "due_date": null,
+      "summary": "Tras primera inferencia, verificar contexto, recuerdos, calculadora con tool_calls estructurados, cancelación y recuperación; distinguir resultados simulados."
+    },
+    {
+      "id": "alfred-incidente-piper-rc1",
+      "title": "Investigar incidente Piper de RC1",
+      "status": "pending",
+      "due_date": null,
+      "summary": "Dos despliegues RC1 revertidos. El timeout de reproducción no determina causa; voz real aplazada hasta disponer de entorno aislado."
     }
   ],
   "policy": {
