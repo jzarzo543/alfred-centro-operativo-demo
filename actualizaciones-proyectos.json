@@ -1,11 +1,19 @@
 {
   "schema_version": 1,
   "source": "github-project-updates",
-  "updated_at": "2026-11-15T18:31:43.464Z",
+  "updated_at": "2026-11-17T12:24:00Z",
   "scope": "CASA",
   "project_key": "alfred",
   "display_name": "Alfred — Centro Operativo",
   "events": [
+    {
+      "id": "infra-red-gigabit-20261117",
+      "date": "2026-11-17",
+      "type": "milestone",
+      "title": "Red privada Gigabit Ubuntu–MINISFORUM documentada",
+      "status": "completed",
+      "summary": "Switch TP-Link TL-SG105 en servicio; Ubuntu 192.168.50.1/24 y MINISFORUM 192.168.50.2/24. Enlaces a 1 Gbps y ping 4/4 sin pérdidas; Internet sigue por Wi-Fi. Rendimiento real y persistencia tras reinicio aún no verificados. Documentación: docs/red-privada-gigabit-ubuntu-minisforum-2026-11-17.md"
+    },
     {
       "id": "home-assistant-prioridad-20261115",
       "date": "2026-11-15",
@@ -98,6 +106,13 @@
       "status": "pending",
       "due_date": null,
       "summary": "Dos despliegues RC1 revertidos. El timeout de reproducción no determina causa; voz real aplazada hasta disponer de entorno aislado."
+    },
+    {
+      "id": "infra-red-gigabit-rendimiento",
+      "title": "Medir rendimiento real de la red Gigabit",
+      "status": "pending",
+      "due_date": null,
+      "summary": "Comprobar primero si iperf3 está instalado; medir solo con autorización, sin instalaciones automáticas. Después evaluar los tres PLC devolo dLAN 500 duo sin alterar rutas ni servicios de producción."
     }
   ],
   "policy": {
